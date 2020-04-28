@@ -1,0 +1,34 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<div id="conteudo">
+	<p>Olá, {{primeiro_nome}}</p>
+	<p>Sua negociação foi registrada com sucesso na fila de pagamentos e em breve será realizada. Você recebera um e-mail confirmando o pagamento e o compravante em anexo.</p>
+	<p>Seguem os dados da negociação:</p>
+	<br/>
+	<p><b>Protocolo:</b> {{protocolo}}</p>
+	<p><b>Data Hora Registro:</b> {{data_hora}}</p>
+	<p><b>Número Boleto:</b> {{numero_boleto}}</p>
+	<p><b>Data Vencimento:</b> {{data_vencimento_boleto}}</p>
+	<p><b>Valor Boleto:</b> {{valor_boleto}}</p>
+	<p><b>Número de parcelas:</b> {{quantidade_parcelas}}</p>
+	<p><b>Valor das parcelas:</b> {{valor_parcelas}}</p>
+	<br/>
+
+	<p>Caso ainda não tenha enviado a <i>selfie</i> para confirmação de identidade, você pode clicar agora para enviar:</p>
+
+	<a href="#">
+		<div class="btn_acao">
+			<h3 class="texto_botao">Enviar Selfie</h3>
+		</div>
+	</a>
+
+	<p>Para acompanhar o status da sua negociação é só <a href="#">clicar aqui</a> ou utilizando o protocolo: {{protocolo}} clicando logo abaixo:</p>
+
+	<a href="#">
+		<div class="btn_acao">
+			<h3 class="texto_botao">Rastrear Negociação</h3>
+		</div>
+	</a>
+</div>

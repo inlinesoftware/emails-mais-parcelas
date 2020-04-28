@@ -1,0 +1,41 @@
+#conteudo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	width: 50%;
+	margin-bottom: 40px;
+}
+
+#botao_pagamento, a{
+	text-decoration: none !important;
+}
+
+.btn_acao {
+	display: table; 
+	width: 400px;
+	height: 50px;
+	background-color: #023059;
+	text-align: center;
+
+}
+
+.texto_botao {
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 10em;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	font-size: 20px;
+	color: #6F6F6F;
+}
+
+#detalhe_negociacao > p{
+	font-size: 18px;
+	color: #6F6F6F;
+}
